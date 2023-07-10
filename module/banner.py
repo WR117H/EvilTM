@@ -1,6 +1,7 @@
 from colorama import Fore
 
 description="""
+v1.0
 EvilTM is a tool to crack NLTM hashes with sam.save 
 and system.save to extract hash of windows password.
 The newest version and documentation is always available at;
