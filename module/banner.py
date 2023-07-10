@@ -1,4 +1,5 @@
 from colorama import Fore
+import os
 
 description="""
 v1.0
@@ -18,6 +19,7 @@ ascii=f"""
 """
 
 def ban():
+   os.system("clear")
    print(Fore.LIGHTMAGENTA_EX+ascii+Fore.RESET)
 def disc():
    print(description)
